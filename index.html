@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Slider -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+
+        <Link rel="stylesheet" href="css/normalize.css">
+        <Link rel="stylesheet" href="css/main.css">
+
+        <title>Web Next Generation</title>
+    </head>
+    <body>
+        <header>
+
+            <img src="img/moon.png" alt="logo">
+
+            <div id="brand">
+                <h1>Brand</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li class="twitter"><a href="#"></a></li> -->
+                    <!-- <li class="facebook"><a href="#"></a></li> -->
+                    <!-- <li class="instagram"><a href="#"></a></li> -->
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="section1">
+            <div id="container">
+                <div class="slider">
+                    <div><img src="img/slides/slider1.png" title="Funky roots"></div>
+                    <div><img src="img/slides/slider2.jpg" title="The long and winding road"></div>
+                    <div><img src="img/slides/slider3.jpg" title="Happy trees"></div>
+                    <div><img src="img/slides/slider4.jpg" title="Happy trees"></div>
+                    <div><img src="img/slides/slider5.jpg" title="Happy trees"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="jagged-border"></div>
+
+        <div id="section2">
+            <section class="grid-container">
+                <div class="grid-item">
+                    <img src="img/cards/source-code.png" alt="">
+                    <article>
+                        <h1>
+                            Programming
+                        </h1>
+                        <p>Dolor eligendi accusantium cum illum voluptas Molestiae autem molestiae dolorem!</p>
+                    </article>
+                </div>
+
+                <div class="grid-item">
+                    <img src="img/cards/web.png" alt="">
+                    <article>
+                        <h1>
+                            Web Development
+                        </h1>
+                        <p>
+                            Consectetur esse commodi quam beatae iste Placeat perspiciatis ab ducimus.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="grid-item">
+                    <img src="img/cards/robotics.png" alt="">
+                    <article>
+                        <h1>
+                            Robotics
+                        </h1>
+                        <p>
+                            Dolor consequuntur illum hic odit impedit quam Ex quis incidunt!
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="work">
+                
+            </section>
+
+            <section id="contact">
+                <ul class="contact">
+                    <li id="twt"><a href="#"></a></li>
+                    <li id="fb"><a href="#"></a></li>
+                    <li id="inst"><a href="#"></a></li>
+                    <li id="git"><a href="#"></a></li>
+                </ul>
+            </section>
+                    
+            <footer>&copy; Edisson Palomares 2019-2020</footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script>
+            $(document).ready(()=>{
+                $('.slider').bxSlider({auto: true,mode: 'fade'});
+            });
+        </script>
+    </body>
+</html>
